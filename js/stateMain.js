@@ -19,7 +19,7 @@ let StateMain = {
         this.musicPlaying = false;
         this.lift = 350;
         this.fall = 500;
-        this.delay = 3;
+        this.delay = 1;
         game.physics.startSystem(Phaser.Physics.ARCADE);
 
         game.stage.backgroundColor = "#000000";
